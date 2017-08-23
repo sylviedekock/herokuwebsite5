@@ -1,0 +1,22 @@
+<% include header %>
+
+  <% var teller = 1; %>
+  <% nieuws.forEach(function(item){ %>
+
+    <section>
+        <h2><a href=/items/<%- item.id %>><%- item.titel %></a></h2>
+        <a href=/items/<%- item.id %>><img src="/img/<%- item.afbeeldingen[0] %>" alt="<%- item.titel %>"></a>
+
+        <div class="inhoud">
+        <p class="datum"><%- item.datum %></p>
+        <p class="inline stad"><%- item.stad %> </p> -
+        <p class="inline"><%- item.samenvatting %></p>
+      </div>
+    </section>
+
+    <% if (teller !== nieuws.length) { %>
+      <span class="divider"></span>
+    <% } %>
+  <% teller++; }); %>
+
+<% include footer %>

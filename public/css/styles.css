@@ -1,0 +1,200 @@
+body {
+  font-family: 'Crimson Text', serif;
+  font-size: 100%;
+  width: 100%;
+  line-height: 1.3em;
+}
+
+header {
+  background-color: black;
+  padding: 1.5em 2.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  display: inline-block;
+  float: left;
+
+}
+
+h1 a {
+  text-decoration: none;
+  color: yellow;
+  font-size: 1.8em;
+  font-weight: bold;
+  transition: color .2s;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+}
+
+header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 1.5em;
+  height: .8em;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid yellow;
+  outline: none;
+  display: inline-block;
+  float: right;
+  margin-top: .5em;
+}
+
+.clear {
+  clear: both;
+}
+
+nav {
+  padding: 0;
+  overflow: hidden;
+  height: 0;
+  padding: 0;
+  transition: all .2s;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 5px;
+  color: white;
+  text-decoration: none;
+
+}
+
+nav.open {
+  height: auto;
+  padding: 1.5em 0 1em 0;
+}
+
+.filter:first-child {
+  margin-bottom: 1em;
+}
+
+main {
+  padding: 5em 0em 0em 0em;
+}
+
+.divider {
+  display: block;
+  text-align: center;
+  margin: 2em auto;
+  border-top: 1px solid black;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1em;
+}
+
+h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  margin-bottom: 0.5em;
+  margin: 1em;
+    text-align: center;
+
+}
+
+h4 {
+  display: inline;
+  font-weight: bold;
+  color: yellow;
+
+}
+
+.datum {
+  color: black;
+}
+
+#nieuwsitem .datum {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid black;
+
+}
+
+.inline {
+  display: inline;
+
+}
+
+.land {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.stad {
+  text-transform: uppercase;
+  background-color: black;
+  color:yellow;
+  padding: 1px 4px 1px 4px;
+  margin: 1px;
+  margin-right:4px;
+
+      font-family: 'Abril Fatface', cursive;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 10px 0;
+}
+
+
+.inhoud {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+p.bold {
+  font-weight: bold;
+  margin-bottom: 2.5em;
+
+}
+
+.categorieen {
+  font-style: italic;
+  margin-top: 2.5em;
+
+}
+
+.commentbox {
+  margin-top: 3em;
+  margin:1em;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  padding: .5em 2.5em;
+  margin-top: 2em;
+}
+
+footer a {
+  color: yellow;
+}
+
+footer p {
+  color: white;
+  display: block;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    max-width: 35em;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,59 @@
+{
+    "nieuws":
+    [
+        {
+            "titel": "These hilarious robot GIFs will be sure to make you smile",
+            "id": 5,
+            "datum": "12/08/2017 • 16:41",
+            "land": "Amerika",
+            "stad": "New York",
+            "categorieen": ["Animation","Illustration"],
+            "samenvatting": "Silly Robots is a series of lovely GIFs starring (as the name suggests) ridiculous robots taking part in all sorts of activities.  Because why not. ",
+            "body": "<p>The robots' geometric shapes and endless loops – as well as the bright colours – make them a real visual treat and really fun to watch. Each robot has its own personality, so the GIFs are all different from one another. To make sure none would be similar, the studio created a set of important rules to follow: a strict colour palette, one texture and no more than four hours to create one from start to finish.</p>",
+            "afbeeldingen": ["bot11.gif","bot1.gif"]
+        },{
+            "titel": "Samsungs new TV looks like a framed artwork",
+            "id": 4,
+            "datum": "18/07/2017 • 11:05",
+            "land": "Amerika",
+            "stad": "Los Angeles",
+            "categorieen": ["Hardware", "Video", "Marketing"],
+            "samenvatting": "Samsung’s new television is disguised as a picture frame, allowing you to display your own choice of artwork when it’s switched off. Find out how to get your hands on one.",
+            "body": "<p>The Frame is probably the most inconspicuous and unconventional television you will have seen to date, and it’s now available to purchase in the UK. Doing away with the mundane, familiar aesthetic of the household technology, the new Samsung high definition TV is disguised as framed artwork.</p><p>A far cry from the box sets of the 1960s, and an impressively sleek offering in the current market, The Frame is designed to hang on the walls of your home just like any other framed artwork would. When you’re not actually watching television you can display artwork of your choice on the screen. You can change the artwork content as much or as little as you please, making it perfect for artists, designers, illustrators.</p>",
+            "afbeeldingen": ["samsung.jpg","samsung1.jpg"]
+        },
+        {
+            "titel": "ManvsMachine win UK's only Gold Design Cannes Lions award",
+            "id": 3,
+            "datum": "28/06/2017 • 13:43",
+            "land": "Frankrijk",
+            "stad": "Cannes",
+            "categorieen": ["Graphic Design", "Marketing"],
+            "samenvatting": "ManvsMachine are honoured to walk away with the UK's only Gold Design Lion at this year's Cannes Lions International Festival for its Nike Air Max ’17 campaign – the art of negative space.",
+            "body": "<p>The new award adds to the design studio's two D&AD pencils for the same campaign. We’re gonna need a bigger shelf, says ManvsMachine on its website. ManvsMachine's series of visual metaphors for Nike are inspired by scenarios which happen on an everyday run. The campaign is centred around a metaphorical exploration of air and the negative space it occupies, visually interpreting the most winning attributes of the Nike Air Max trainer – ultralight support and maximum comfort.</p><p>The go lighter go longer campaign completely shows off the digital talent of the design and motion studio. It rolled out across Nike’s social media platforms and digital properties, out-of-home placements throughout Europe and in the retail design of JD Sports and Footlocker. But it wasn't the only campaign for Nike to win a Design Gold at Cannes.</p>",
+            "afbeeldingen": ["nike.jpg", "nike1.png"]
+        },
+        {
+            "titel": "Ori Toor's bizarre interface designs and print layouts for gibberish",
+            "id": 2,
+            "datum": "24/06/2017 • 15:18",
+            "land": "Australië",
+            "stad": "Melbourne",
+            "categorieen": ["Graphic Design","Illustration"],
+            "samenvatting": "These wonderfully eccentric digital and print designs show that the content doesn't have to make sense to produce great work.",
+            "body": "<p>Many would say that the whole point of digital and graphic design is to help bring out the purpose or content of what it contains. But what can design offer if the purpose of an interface isn’t clear – or if the content is nonsense.<p>These are ideas explored by new works by Ori Toor: filed as Gibberish Print Design and Imaginary Print, Interfaces, And In-Between. The Israeli artist works in an entirely improvised fashion in Photoshop – working without roughs, sketches and references. Despite such restrictions, his works have a balanced composition that are packed with interesting detail but allow you to explore them leisurely pace to discover them all without feeling overwhelmed. I caught up with Ori to discover what inspires him and his work.</p>",
+            "afbeeldingen": ["ori1.jpg", "ori.png"]
+        },
+        {
+            "titel": "Helen Friel, Ross Symons and other paper artists’ incredible designs for Google",
+            "id": 1,
+            "datum": "20/06/2017 • 22:55",
+            "land": "Amerika",
+            "stad": "Los Angeles",
+            "categorieen": ["Marketing", "Graphic Design"],
+            "samenvatting": "Six paper artists have created stop motion animations entirely from folded paper, as video wallpaper designs for Android tablets or smartphones.",
+            "body": "<p>Google abides by a visual language that provides a unified experience across all platforms and device sizes. It’s called Google’s Material design.</p><p>HThe idea is for Google’s digital interface to resemble real-life objects, and Google Material is the design philosophy, guidelines if you will, behind this. It’s a way for designers to collaborate with users and create a cohesive design (if that still doesn’t make sense, here’s a video from Google Design that tries to explain it).</p><p>To mark the third year since its existence, in a strange twist, well-known paper artists have created stop motion animations made entirely from folded paper, which have been digitalised into video wallpapers for consumers to download onto Android tablets or smartphones.</p> ",
+            "afbeeldingen": ["google.jpg", "google1.jpg"]
+        }
+    ]
+}

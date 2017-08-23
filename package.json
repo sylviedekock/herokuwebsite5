@@ -1,0 +1,17 @@
+{
+  "name": "sylviedekock",
+  "version": "1.0.0",
+  "description": "Opdracht 5",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+
+  "author": "Sylvie de Kock",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}

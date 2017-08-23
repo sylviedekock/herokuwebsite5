@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Today</title>
+		<link rel="stylesheet" type="text/css" href="/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="/css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Crimson+Text" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+
+		<header>
+			<h1><a href="/">Today</a></h1>
+			<button></button>
+			<div class="clear"></div>
+			<nav>
+				<div class="filter categorienav">
+					<h4>Categorieën:</h4>
+					<% for (var i = 0; i < categorieen.length; i++) { %>
+						<a href="/categorieen/<%- i %>"><%- categorieen[i] %></a>
+					<% } %>
+				</div>
+				<div class="filter landnav">
+					<h4>Landen:</h4>
+					<% for (var i = 0; i < landen.length; i++) { %>
+						<a href="/landen/<%- i %>"><%- landen[i] %></a>
+					<% } %>
+				</div>
+			</nav>
+		</header>
+
+		<main>
